@@ -39,17 +39,17 @@ function setBgGreet() {
     hour = today.getHours();
 
   if (hour < 12) {
-    // Morning
+    // Día
     document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1421990535576-b336c6b1c8a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80')";
-    greeting.textContent = 'Good Morning, ';
+    greeting.textContent = 'Buen Día, ';
   } else if (hour < 18) {
-    // Afternoon
+    // Tarde
     document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1445248347675-4f451bc40f18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80')";
-    greeting.textContent = 'Good Afternoon, ';
+    greeting.textContent = 'Buenas Tardes, ';
   } else {
-    // Evening
+    // Noche
     document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1484438006008-10058aac184b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80')";
-    greeting.textContent = 'Good Evening, ';
+    greeting.textContent = 'Buenas Noches, ';
     document.body.style.color = 'white';
   }
 }
