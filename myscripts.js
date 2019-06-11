@@ -40,15 +40,15 @@ function setBgGreet() {
 
   if (hour < 12) {
     // Morning
-    document.body.style.backgroundImage = "url('https://i.ibb.co/7vDLJFb/morning.jpg')";
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1421990535576-b336c6b1c8a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80')";
     greeting.textContent = 'Good Morning, ';
   } else if (hour < 18) {
     // Afternoon
-    document.body.style.backgroundImage = "url('https://i.ibb.co/3mThcXc/afternoon.jpg')";
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1445248347675-4f451bc40f18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80')";
     greeting.textContent = 'Good Afternoon, ';
   } else {
     // Evening
-    document.body.style.backgroundImage = "url('https://i.ibb.co/924T2Wv/night.jpg')";
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1484438006008-10058aac184b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80')";
     greeting.textContent = 'Good Evening, ';
     document.body.style.color = 'white';
   }
